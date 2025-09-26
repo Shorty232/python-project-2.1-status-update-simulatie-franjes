@@ -5,7 +5,7 @@ Created on Mon Sep 22 23:29:19 2025
 """
 #imports
 import numpy as np
-import math as math
+import matplotlib.pyplot as plt
 #de formule om de optische weg lengten te bepalen.
 def autopos(hoek_inval_g, d, g_len, n):
     hoek_inval_r= np.radians(hoek_inval_g)
